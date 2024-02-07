@@ -1,5 +1,6 @@
 import "./App.css"
 import Navbar from "./Components/Navbar/Navbar.jsx"
+import Footer from "./Components/Footer/Footer.jsx"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Shop from "./Pages/Shop.jsx"
 import ShopCategory from "./Pages/ShopCategory.jsx"
@@ -23,6 +24,7 @@ function App() {
           </Route>
           <Route path="/cart" element={<Cart />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   )

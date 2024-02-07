@@ -1,0 +1,31 @@
+.new-arrivals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 100px;
+}
+
+.new-arrivals h1 {
+  color: #171717;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.new-arrivals hr {
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  background: #252525;
+}
+
+.new-arrivals__items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 50px;
+  gap: 1.7vw;
+}
+
+.new-arrivals__items img {
+  max-width: 20vw;
+}
